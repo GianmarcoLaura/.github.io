@@ -1025,8 +1025,8 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   /*width: 13%;
   height: 10%;*/
   background: rgba(241, 78, 149, 0.9);/*rgba(250, 226, 9, 0.8);/* FUCSIA rgba(241, 78, 149, 0.9);*/
@@ -1054,14 +1054,15 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
   color: white;
+  text-align: center;
   /* amounts and words */
 }
 
@@ -1471,6 +1472,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0px;
+  padding-bottom: 20%;
   background: #B9CC2A;
 }
 #fh5co-rsvp .fh5co-heading h2 {
