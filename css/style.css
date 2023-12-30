@@ -57,7 +57,7 @@ body {
   bottom: 0;
   left: 0;
   z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
+  /*background: rgba(0, 0, 0, 0.7);*/
   content: "";
 }
 
@@ -1581,9 +1581,9 @@ form label {
 
 #fh5co-offcanvas {
   position: absolute;
-  z-index: 1901;
+  z-index: 1500;
   width: 270px;
-  background: black;
+  background: pink;
   top: 0;
   right: 0;
   top: 0;
@@ -1607,7 +1607,8 @@ form label {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
 }
 #fh5co-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
@@ -1627,7 +1628,7 @@ form label {
 }
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a {
   display: block;
-  position: relative;
+  position: absolute;
 }
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
@@ -1644,7 +1645,7 @@ form label {
   -moz-osx-font-smoothing: grayscale;
   content: "\e921";
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.2);
+  color: pink;/*rgba(255, 255, 255, 0.2);*/
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
