@@ -284,7 +284,7 @@ h1, h2, h4, h3, h5, h6, figure {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  position: relative;
+  position: fixed;
   background-color:#759CC4;
 /*background: linear-gradient(#759CC4, #000000);*/
 }
@@ -1463,8 +1463,8 @@ form label {
   text-transform: uppercase;
   font-size: 18px;
   color: #5d5d5d;
-  margin-bottom: 10px;
-}
+  padding-bottom: 10%;
+  }
 
 #fh5co-rsvp {
   position: relative;
@@ -1475,8 +1475,9 @@ form label {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0px;
+  bottom: 10px;
   padding-bottom: 20%;
+
   background: #B9CC2A;
 }
 #fh5co-rsvp .fh5co-heading h2 {
