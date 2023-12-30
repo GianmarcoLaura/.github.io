@@ -4,8 +4,12 @@
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
   font-style: normal;
-  font-size: 250%;  /* Preferred icon size */
-  display: inline-block;
+  font-size: 200%;  /* Preferred icon size */
+  text-align: center;
+  display:inline-block;
+  padding-top: 15%;
+  padding: 5%
+  margin: auto;
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;
@@ -409,7 +413,7 @@ h1, h2, h4, h3, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 700px;
+  height: 100%;
   float: left;
 }
 
@@ -613,8 +617,8 @@ h1, h2, h4, h3, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   line-height: 50px;
   font-size: 1.4em;
   text-align: center;
