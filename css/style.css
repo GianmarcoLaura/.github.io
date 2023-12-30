@@ -524,9 +524,10 @@ h1, h2, h4, h3, h5, h6, figure {
 
 .timeline {
   list-style: none;
-  padding: 20px 0 20px;
+  padding: 5% 0 10%;
+  margin-top: 5% 0 10%;
   position: relative;
-  margin: 40px;
+  margin: 0%;
 }
 .timeline:before {
   top: 0;
@@ -1026,8 +1027,10 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
+  /*width: 13%;
+  height: 10%;*/
   background: rgba(241, 78, 149, 0.9);/*rgba(250, 226, 9, 0.8);/* FUCSIA rgba(241, 78, 149, 0.9);*/
-  margin: 180px 4px;
+  margin: 10% 1%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1063,7 +1066,7 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 150%;
   /* amounts */
 }
 
@@ -1122,6 +1125,8 @@ form label {
 @media screen and (max-width: 768px) {
   .couple-wrap {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -1459,6 +1464,7 @@ form label {
 #fh5co-rsvp {
   position: relative;
 }
+
 #fh5co-rsvp .overlay {
   position: absolute;
   top: 0;
@@ -1526,13 +1532,27 @@ form label {
   margin-bottom: 0;
 }
 
+.responsive-iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border: none;
+  overflow: scroll;
+  position: absolute;
+  /*flex-wrap: wrap;
+  display: flex;*/
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-footer .copyright .pull-left,
-  #fh5co-footer .copyright .pull-right {
+  #fh5co-footer .copyright .pull-right responsive-iframe {
     float: none !important;
     text-align: center;
   }
 }
+
 #fh5co-footer .copyright .block {
   display: block;
 }

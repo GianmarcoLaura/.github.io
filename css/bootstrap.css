@@ -368,7 +368,7 @@ img {
 .img-responsive {
   display: block;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
 }
 
 .img-rounded {
@@ -1502,6 +1502,7 @@ pre code {
 
   .col-md-offset-0 {
     margin-left: 0%;
+    margin-top: 5%;
   }
 
   .col-md-offset-1 {
