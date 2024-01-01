@@ -8,6 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Gianmarco & Laura</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
@@ -82,52 +83,9 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	</head>
 	<body>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <script>
-			$(document).ready(function () {
-			$(document).on("scroll", onScroll);
-
-			//smoothscroll
-			$('a[href^="#"]').on('click', function (e) {
-				e.preventDefault();
-				$(document).off("scroll");
-
-				$('a').each(function () {
-					$(this).removeClass('active');
-				})
-				$(this).addClass('active');
-
-				var target = this.hash,
-					menu = target;
-				$target = $(target);
-				$('html, body').stop().animate({
-					'scrollTop': $target.offset().top+2
-				}, 500, 'swing', function () {
-					window.location.hash = target;
-					$(document).on("scroll", onScroll);
-				});
-			});
-		});
-
-		function onScroll(event){
-			var scrollPos = $(document).scrollTop();
-			$('#main_menu a').each(function () {
-				var currLink = $(this);
-				var refElement = $(currLink.attr("href"));
-				if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-					$('#main_menu ul li a').removeClass("active");
-					currLink.addClass("active");
-				}
-				else{
-					currLink.removeClass("active");
-				}
-			});
-		}
-    </script>
 
 <!--	<style>-->
 <!--      @font-face { font-family: Goodies; src: url('css/fonts/Goodies.otf'); }-->
@@ -397,58 +355,6 @@
 	</div>
 
 
-	<!--<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-users"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Estimated Guest</span>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-user"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">We Catter</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-calendar"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Events Done</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Hours Spent</span>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>-->
 
 	<div id="fh5co-services" class="fh5co-section-white">
 		<div class="container">
@@ -697,6 +603,7 @@
 
 
 </script>
+
 
 	</body>
 </html>
