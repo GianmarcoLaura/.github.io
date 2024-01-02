@@ -114,7 +114,7 @@ h1, h2, h4, h3, h5, h6, figure {
 }
 
 ::-webkit-selection {
-  color: blue;
+  color: pink;
   background: #000000; /*#F14E95;*/
 }
 
@@ -284,7 +284,7 @@ h1, h2, h4, h3, h5, h6, figure {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-color:#759CC4;
+  background-color:#B9CC2A;
 /*background: linear-gradient(#759CC4, #000000);*/
 }
 
@@ -1476,11 +1476,9 @@ form label {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 10px;
-  padding-bottom: 20%;
-
-  background: #B9CC2A;
+  bottom: 0px;
 }
+
 #fh5co-rsvp .fh5co-heading h2 {
   color: #fff;
 }
