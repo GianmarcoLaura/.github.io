@@ -7,7 +7,7 @@
   font-size: 200%;  /* Preferred icon size */
   text-align: center;
   display:inline-block;
-  padding-top: 15%;
+  padding-top: 12.5%;
   padding: 5%
   margin: auto;
   line-height: 1;
@@ -79,6 +79,12 @@ border-top: 100px solid #B42834;
 }
 
 #fh5co-couple a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+
+#fh5co-services a {
   color: #000000;
   text-decoration: underline;
 }
@@ -284,17 +290,16 @@ h1, h2, h4, h3, h5, h6, figure {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-color:#B9CC2A;
+  /*background-color:#B9CC2A;*/
 /*background: linear-gradient(#759CC4, #000000);*/
 }
 
 .fh5co-bg {
   background-position: center top;
-
   width: 100%;
   float: left;
   position: relative;
-    height: auto;
+  height: auto;
 }
 
 .fh5co-video {
@@ -378,6 +383,10 @@ h1, h2, h4, h3, h5, h6, figure {
   .fh5co-cover {
     height: 600px;
   }
+  .fh5co-bg {
+    background-position: 33% 50%;
+
+  }
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
@@ -421,6 +430,8 @@ h1, h2, h4, h3, h5, h6, figure {
 #fh5co-rsvp {
   height: 1100px;
   float: left;
+  background-color:#B9CC2A;
+
 }
 
 #fh5co-counter .display-t,
@@ -461,7 +472,7 @@ h1, h2, h4, h3, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-counter,
   #fh5co-event {
-    height: inherit;
+    height: auto;
     padding: 5em 0;
   }
   #fh5co-colocationunter .display-tc,
@@ -626,7 +637,7 @@ h1, h2, h4, h3, h5, h6, figure {
   position: absolute;
   top: 50px;
   left: 50%;
-  margin-left: -50px;
+  margin-left: -40.5px;
   background-color: #999999;
   z-index: 100;
   -webkit-border-radius: 50%;
@@ -738,9 +749,9 @@ h1, h2, h4, h3, h5, h6, figure {
 #fh5co-gallery-list li {
   display: block;
   padding: 0;
-  margin: 0 50px 10px 1%;
+  margin: 0 30px 10px 1%;
   list-style: none;
-  min-height: 400px;
+  /*min-height: 400px;*/
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -924,7 +935,7 @@ form label {
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h1,
 .fh5co-cover .display-tc h2 {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   color: white;
 }
@@ -1092,7 +1103,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 4em 0;
+  padding: 2.5em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
