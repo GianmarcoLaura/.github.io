@@ -428,7 +428,7 @@ h1, h2, h4, h3, h5, h6, figure {
 }
 
 #fh5co-rsvp {
-  height: 1100px;
+  height: 900px;
   float: left;
   background-color:#B9CC2A;
 
@@ -500,6 +500,9 @@ h1, h2, h4, h3, h5, h6, figure {
   #fh5co-event .event-wrap {
     margin-bottom: 10px;
   }
+  #fh5co-rsvp {
+    height: 1150px;
+    }
 }
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
@@ -1103,7 +1106,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 2.5em 0;
+  /*padding: 2.5em 0;*/
   clear: both;
 }
 @media screen and (max-width: 768px) {
