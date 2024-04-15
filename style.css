@@ -119,6 +119,18 @@ h1, h2, h4, h3, h5, h6, figure {
   margin: 0 0 10px 0;
 }
 
+.custom a {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: 550;
+      color: #403e3e;
+      text-transform:uppercase;
+      font-size: 22px;
+      line-height: 1.2;
+      margin: 0 0 10px 0;
+      text-decoration:underline;
+      }
+
 ::-webkit-selection {
   color: pink;
   background: #000000; /*#F14E95;*/
@@ -430,7 +442,9 @@ h1, h2, h4, h3, h5, h6, figure {
 }
 
 #fh5co-rsvp {
-  height: 900px;
+  height: 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
   float: left;
   background-color:#B9CC2A;
 
